@@ -1,0 +1,169 @@
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#navbar a {
+    text-decoration: none;
+}
+#navbar a:hover {
+    color: white;
+}
+#home {
+    background-color: #181C14;
+}
+#home img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+#home p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #FFD93D;
+    height: 25px;
+}
+#resume .grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: white;
+    margin: 0%;
+}
+#resume .grid-item {
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+}
+#resume .grid-container2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0%;
+}
+#leftside{
+    background-color: #181C14;
+    color: white;
+    height: 100%;
+    
+}
+#resume img{
+    margin: auto; 
+    display: block; 
+    margin-bottom: 7%; 
+    border-radius: 50%;
+}
+#rightside{
+    background-color: white;
+    color: #434242; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#skillhead{
+    margin-bottom: 0%;
+    background-color: #FFD93D;
+    text-indent: 50px;
+}
+#resume fieldset{
+    margin-bottom: 5%;
+}
+body{
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#sampname{
+    font-size: 3vw;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#pos{
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+#about{
+    background-color: #FFD93D;
+    text-indent: 50px;
+}
+#desc{
+    text-align: justify;
+    margin-bottom: 0%;
+}
+.headerskill{
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.skillitem{
+    font-size: 1.2vw;
+    padding-bottom: 1vw;
+}
+#leftside li{
+    padding: 1vw;
+}
+#charref{
+    grid-column: 1/span 2;
+    text-indent: 50px;
+}
+a{
+    color: black;
+}
+#hobbies .grid-container {
+    display: grid;
+    grid-template-rows: auto;
+}
+#hobbies .grid-container p{
+    font-size: 25px;
+    width: 50%;
+}
+#hobbies .grid-item-a{
+    background-color: #181C14;
+    color: white;
+}
+#hobbies .grid-item-a img {
+    float: right;
+    height: 100%;
+}
+#hobbies .grid-item-a p {
+    float: left;
+    margin-left: 5%;
+}
+#hobbies .grid-item-b {
+    background-color: white;
+}
+#hobbies .grid-item-b img {
+    float: left;
+}
+#hobbies .grid-item-b p {
+    float: right;
+    margin-right: 5%;
+}
+#comments {
+    background-color: #181C14;
+    margin: 0;
+}
+#form{
+    border-style: solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding: 10px;
+    color: white;
+}
+#form body{
+    margin: 0%;
+}
+#form a{
+    color: white;
+}
+#form a:hover{
+    color: #FFD93D;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <title>Rating</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="comments">
+        <ul id="navbar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Hobbies.html">Hobbies and Interests</a></li>
+            <li><a href="Comments.html">Comments</a></li>
+        </ul>
+        <div id="form">
+            <h1>Rate My Blog</h1>
+            <form>
+                <label>Check all the boxes which you think describe the blog.</label><br>
+                <input type="checkbox" id="Concise" value="Concise">
+                <label for="Concise">Concise</label><br>
+                <input type="checkbox" id="Interesting" value="Interesting">
+                <label for="Interesting">Interesting</label><br>
+                <input type="checkbox" id="Informative" value="Informative">
+                <label for="Informative">Informative</label><br>
+                <input type="checkbox" id="VisuallyAppealing" value="VisuallyAppealing">
+                <label for="VisuallyAppealing">Visually Appealing</label><br><br>
+                <label>On a scale of 1 to 5, how would you rate the content of the blog?</label><br>
+                <input type="radio" id="1" value="1">
+                <label for="1">1</label>
+                <input type="radio" id="2" value="2">
+                <label for="2">2</label>
+                <input type="radio" id="3" value="3">
+                <label for="3">3</label>
+                <input type="radio" id="4" value="4">
+                <label for="4">4</label>
+                <input type="radio" id="5" value="5">
+                <label for="5">5</label><br><br>
+                <label for="revision">In the resume page, which part should I improve (if any)?</label><br>
+                <select id="revision" name="revision">
+                    <option value="" disabled selected>Select Part</option>
+                    <option value="None">None</option>
+                    <optgroup label="Left Side">
+                        <option value="Contact">Contact</option>
+                        <option value="Education">Education</option>
+                        <option value="Languages">Languages</option>
+                    </optgroup>
+                    <optgroup label="Right Side">
+                        <option value="About Me">About Me</option>
+                        <option value="Relevant Skills">Relevant Skills</option>
+                        <option value="Character Reference">Character Reference</option>
+                    </optgroup>
+                </select><br><br>
+                <label for="Suggestions">Do you have any suggestions or comments?</label><br>
+                <textarea id="Suggestions" name="Suggestions" rows="5" cols="50"></textarea><br><br>
+                <input type="reset" value="Clear All">
+                <input type="submit" value="Submit"><br><br>
+            </form>
+        </div>
+    </body>
+</html>
